@@ -1,0 +1,64 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color: #111;
+  background: #fff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#app {
+  min-height: 100svh;
+}
+
+.page {
+  min-height: 100svh;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.site-header {
+  padding: 24px;
+}
+
+.logo {
+  margin: 0;
+  font-size: clamp(20px, 4vw, 32px);
+}
+
+.problem {
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  min-width: 0;
+}
+
+.problem-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 100%;
+}
+
+.problem-content input {
+  width: 300px;
+  max-width: 100%;
+  padding: 12px;
+  font: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
