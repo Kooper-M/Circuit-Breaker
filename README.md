@@ -1,6 +1,6 @@
 # Circuit Breaker
 
-A coding practice website built with React and TypeScript.
+A circuit solving website built with React and TypeScript.
 
 ## Run locally
 
